@@ -1,0 +1,23 @@
+.about_container {
+    box-shadow: 0 12px 24px rgba(50,50,93,0.3);
+    padding: 32px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 40px;
+    font-weight: 400;
+
+    text-align: center;
+}
+.about_container img {
+    border: 1px solid #000;
+    box-shadow: 0 0 3px rgb(100, 100, 100);
+}
+.about_container span:nth-child(2) {
+    font-size: 13px;
+    color: rgb(26, 24, 24);
+}
+.about_container span:nth-child(3) {
+    font-size: 16px;
+    font-weight: bold;
+}

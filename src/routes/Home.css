@@ -1,0 +1,21 @@
+/* loading 시 글자 애니메이션 */
+.loader {
+    font-size: 2rem;
+    font-weight: 300;
+    color: rgb(45, 101, 134);
+    text-align: center;
+    font-family: Oswald,sans-serif;
+}
+.loader_text {
+    animation-name: loader;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes loader {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
