@@ -18,7 +18,9 @@
 .detail ul li:first-child {
     border-top: none;
 }
-
 .fontColorRed {
     color: red;
+}
+.detail img {
+    width: 100%;
 }

@@ -48,7 +48,6 @@ class Detail extends Component {
                 ) : (null)}
                 </div>);
 
+    }
 }
-}
-
 export default Detail;
